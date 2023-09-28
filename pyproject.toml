@@ -21,11 +21,11 @@ description = "A simple library for generating QR codes with logo"
 name = "logo-qrcode"
 readme = "README.md"
 requires-python = ">=3.8"
-version = "0.0.3"
+version = "0.0.4"
 
 [project.scripts]
 logo-qrcode-cli = "logo_qrcode.logo_qrcode:main()"
 
 [project.urls]
-"Bug Tracker" = "https://github.com/xxx/issues"
-"Homepage" = "https://github.com/xxx"
+"Bug Tracker" = "https://github.com/hellofan1998/logo_qrcode/issues"
+"Homepage" = "https://github.com/hellofan1998/logo_qrcode"
