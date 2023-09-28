@@ -30,7 +30,7 @@ A simple Python library for generating QR codes with logo
 
 使用 `pip install logo-qrcode` 安装成功可以直接使用 `cli` 工具
 
-`logo-qrcode-cli -data http://www.baidu.com -logo logo.png -save qecode.png`
+`logo-qrcode-cli -data https://www.google.com -logo logo.png -save qecode.png`
 
 使用 `--base64` 直接在控制台输出图片 `base64`
-`logo-qrcode-cli -data http://www.baidu.com -logo logo.png --base64`
+`logo-qrcode-cli -data https://www.google.com -logo logo.png --base64`

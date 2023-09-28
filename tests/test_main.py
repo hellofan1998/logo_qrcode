@@ -18,8 +18,8 @@ print("test_dir: ", test_dir)
 def test_main():
     from logo_qrcode.logo_qrcode import QRMaker
 
-    qr_maker = QRMaker("http://www.google.com", 512)
-    qr_maker.add_logo("logo.png")
+    qr_maker = QRMaker("https://www.google.com", 512)
+    qr_maker.add_logo("google_logo.png")
     qr_maker.save_image("google.png")
     print(qr_maker.to_base64())
 
